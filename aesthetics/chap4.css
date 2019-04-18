@@ -1,0 +1,100 @@
+/* Color scheme
+#2D58A1 Dark blue
+#2BA3C8 Medium blue
+#82D6D6 light blue
+#AFDCE1 pale blue
+#FAFAFA white
+
+font-family: 'Amatic SC', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Sacramento', cursive;
+*/
+header{
+  background-image: url("images/white-waves.png");
+  height: 120px;
+}
+body{
+  background-color: #2D58A1;
+}
+footer{
+  background-color: #AFDCE1;
+  font-size: .75em;
+  font-style: italic;
+  text-align: center;
+  clear: both;
+  padding: 5px;
+}
+#wrapper{
+  background-color: #FAFAFA;
+  width: 980px;
+  box-shadow: 5px 5px 4px #82D6D6;
+}
+#leftcol{
+  float: left;
+  width: 440px;
+  min-height: 500px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #AFDCE1;
+}
+#rightcol{
+  float: right;
+  width: 440px;
+  min-height: 500px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #AFDCE1;
+}
+h1{
+  width: 420px;
+  float: left;
+  font-family: 'Amatic SC', cursive;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  color: #2BA3C8;
+  font-size: 50px;
+}
+nav{
+  width: 490px;
+  float: right;
+  margin-bottom: 0px;
+  margin-top: 90px;
+  color: #2BA3C8;
+  font-weight: bold;
+}
+nav a{
+  font-family: 'Amatic SC', cursive;
+  text-decoration: none;
+  padding: 5px;
+  color: #2BA3C8;
+  font-size: 20px;
+}
+#heropic{
+  clear: both;
+}
+h2{
+  color: #2BA3C8;
+  font-size: 180%;
+  font-family: 'Amatic SC', cursive;
+  background-image: url(images/wave.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2em;
+  line-height: 135%;
+}
+.info{
+  background-color: #2D58A1;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  margin: auto;
+  padding: 6px;
+  border-radius: 16px;
+  text-align: center;
+}
