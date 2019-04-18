@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Brandi Durham Exercise 5: Music Survey</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<header>
+<h1>Music Survey</h1>
+</header>
+<main>
+  <form>
+  Name: <input type="text" name="name" id="name" required="required"><br>
+E-mail: <input type="email" name="email" id="email" required="required"><br><br>
+What Role has Music Played in Your Life:<br>
+<textarea name="role" id="role" cols="60" rows="3"></textarea><br><br>
+<fieldset>
+  <legend>How Often Do You Listen To Music:</legend>
+<input type="radio" name="typeMusic" id="daily" value="1"> Daily<br>
+<input type="radio" name="typeMusic" id="weekly" value="2"> Weekly<br>
+<input type="radio" name="typeMusic" id="monthly" value="3"> Monthly<br>
+<input type="radio" name="typeMusic" id="never" value="4"> Never<br>
+</fieldset><br><br>
+<fieldset>
+<legend>Select Your Favorite Types of Music:</legend>
+<input type="checkbox" name="pop" id="pop" value="yes">
+Pop <br>
+<input type="checkbox" name="rock" id="rock" value="yes">
+Rock<br>
+<input type="checkbox" name="country" id="country" value="yes">
+Country<br>
+<input type="checkbox" name="classical" id="classical" value="yes">
+Classical<br>
+</fieldset>
+<p>Where do you listen to music the most?</p>
+<select size="3" name="select" id="select">
+<option value="room">Room</option>
+<option value="outside">Outside</option>
+<option value="car">Car</option>
+<option value="kitchen">Kitchen</option>
+</select>
+<p><input type="submit"><input type="reset"></p>
+</form>
+</main>
+<footer><hr>
+<p>Created by Brandi Durham</p>
+<p>Contact at <a href="mailto:durhambn@g.cofc.edu">durhambn@g.cofc.edu</a>.</p></footer>
+</body>
+</html>

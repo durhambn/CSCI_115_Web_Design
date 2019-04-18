@@ -1,0 +1,47 @@
+/*
+blue in logo: #00d1ff;
+
+*/
+
+body{
+  background-color: gray;
+}
+main{
+  clear: both;
+}
+header{
+  border-bottom: 1px solid black;
+  height: 140px;
+  font-size: 2em;
+  text-align: center;
+}
+#wrapper{
+  margin: 25px;
+  background-color: white;
+  padding: 10px;
+
+}
+img{
+  float: left;
+}
+
+table, th, td{
+  border: 1px solid #00d1ff;
+  padding: 10px;
+  text-align: center;
+}
+table{
+  border-collapse: collapse;
+}
+th{
+  background-color: #00d1ff;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+footer{
+  font-size: .75em;
+  border-top: 1px solid black;
+  text-align: center;
+}
